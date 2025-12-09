@@ -459,6 +459,11 @@
       z-index: 1;
     }
 
+    /* REGION LIST */
+.region-list { text-align:left; margin-left:0; padding-left:0; list-style: none; display:grid; gap:10px; font-size:15px; }
+.region-list li::before { content:"▸"; color:var(--bronze); display:inline-block; width:18px; margin-right:8px; }
+
+
     @keyframes zoomBackground {
       0%   { transform: scale(1); }
       50%  { transform: scale(1.1); }
@@ -475,12 +480,77 @@
         <div class="row">
             <div class="col-lg-8">
 
-                    <h2 class="mb-3">Why Tanzania Should Be Your Next Safari Destination</h2>
+                    <h2 class="mb-3">Top things to see and do in Zanzibar</h2>
                     <p>
-                        Tanzania is home to some of the world's most iconic national parks—Serengeti, Ngorongoro Crater,
-                        Tarangire, and Lake Manyara. With unmatched wildlife density and dramatic landscapes,
-                        it provides the perfect environment for immersive adventure and relaxation.
+                        This is a fantastic and comprehensive guide for anyone planning a trip to Zanzibar in
+                         2026! You've beautifully captured the essence of the island, balancing its historical
+                          depth with its natural beauty and adventurous spirit.
+
                     </p>
+
+
+                    <!-- Zanzibar Visual Intro Gallery -->
+<div class="znz-gallery my-4">
+    <div class="row g-3">
+
+        <div class="col-lg-6 col-md-6">
+            <div class="znz-img-box">
+                <img src="assets/images/1755204498359-3 Days stone town, prison island   and Zanzibar beach holiday tour.jpg" alt="Zanzibar Beaches" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="znz-img-box">
+                <img src="assets/images/aerial.jpg" alt="Stone Town" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <div class="znz-img-box small-img">
+                <img src="assets/images/ofc7noktr3caug6t0mrh.webp" alt="Safari Blue" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <div class="znz-img-box small-img">
+                <img src="assets/images/zenji.webp" alt="Prison Island" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+            <div class="znz-img-box small-img">
+                <img src="assets/images/zanzibar-tour.jpg" alt="The Rock Restaurant Zanzibar" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+.znz-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.znz-img-box {
+    overflow: hidden;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.small-img {
+    height: 220px;
+}
+
+.znz-gallery img:hover {
+    transform: scale(1.09);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}
+</style>
+
 
                     <!-- Highlight Box -->
                     <div class="highlight-box p-4 my-4" style="
@@ -489,37 +559,51 @@
                         border-radius:8px;">
                         <h5 class="mb-2" style="color:#28a745;">🌿 Highlight Experience</h5>
                         <p style="margin:0;">
-                            Witness the world-famous Great Wildebeest Migration — one of the most spectacular
-                            natural events on Earth.
+                           To make this excellent list even more helpful for 2026 planning,
+                            here are a few minor additions and points of 
+                           consideration a traveler might find useful:
                         </p>
                     </div>
 
-                    <h3 class="mt-4">Luxury Lodges & World-Class Hospitality</h3>
-                    <p>
-                        Tanzania offers an array of high-end safari lodges and tented camps that blend seamlessly
-                        with nature while providing premium comfort. Think private plunge pools, personal butlers,
-                        gourmet dining, and sunset views over the savannah.
-                    </p>
+                    <h3 class="mt-4">Enhancements & Pro-Tips for 2026 Travelers:</h3><br>
+                    <ul class="tips">
+      <li><strong>Stone Town Tip:</strong>  Add that getting "lost" in the labyrinthine streets of Stone Town is
+         part of the charm, but having a basic map or a data plan for your phone is wise.</li>
+      <li><strong>Spice Tour:</strong> Emphasize that this is a sensory experience! You often get to taste
+         exotic fruits and spices straight from the tree/plant.</li>
+      <li><strong>Jozani Forest:</strong>Mention that the forest boardwalks are a great way to explore the 
+        mangrove ecosystem without getting your feet wet.</li>
+        <li><strong>Historical Context:</strong> You rightly mention Prison Island and the "Anguish House" 
+            (more commonly known as the Slave Market Museum or "Anglican Cathedral"). It's a profoundly moving
+             and important visit to understand Zanzibar's history.</li>
+      <li><strong>Forodhani Gardens:</strong>  This is a must-do evening activity. Go with an empty stomach and
+         be adventurous—try the Zanzibar pizza (it's not what you think!), sugarcane juice, and urojo 
+         (Zanzibari soup).</li>
+      <li><strong>Safari Blue:</strong> This is a very popular and well-regarded tour operator,
+         and the name has become synonymous with the day-trip concept itself. It's a great suggestion
+          for a full day of marine fun.
+</li>
+    </ul>
 
                     <!-- Image Grid -->
                     <div class="row my-4">
                         <div class="col-lg-6 mb-3">
-                            <img src="assets/images/lodge1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                            <img src="assets/images/Zanzibar-3.jpg" class="img-fluid rounded shadow-sm" alt="">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <img src="assets/images/lodge2.jpg" class="img-fluid rounded shadow-sm" alt="">
+                            <img src="assets/images/ariel-view.jpg" class="img-fluid rounded shadow-sm" alt="">
                         </div>
                     </div>
 
                     <div class="blog-details-content animated fadeInUp">
-                    <img src="assets/images/653625fe02d0f-.webp" class="img-fluid rounded mb-4" alt="Safari Lions">
+                    <img src="assets/images/Zanzibar-3.jpg" class="img-fluid rounded mb-4" alt="Safari Lions">
 
 
-                    <h3 class="mt-4">A Safari Tailored to Your Style</h3>
+                    <h3 class="mt-4">A Note on Timing for 2026:</h3>
                     <p>
-                        Whether you want a private guided safari, honeymoon luxury, family adventure,
-                        or a photographic expedition, our itineraries are fully customizable.
-                        Each day is crafted to offer unforgettable wildlife encounters.
+                        While 2026 is a great time to visit, it's always smart to check the seasonal weather. 
+                        The long dry season (June-October) and the short dry season (January-February) generally offer the 
+                        best weather for beaches and activities. The long rains (March-May) can be quite wet.
                     </p>
 
                     <!-- Quote Section -->
@@ -530,15 +614,17 @@
                         border-radius:8px;
                         font-size:18px;
                         font-style:italic;">
-                        “Every moment in Tanzania feels like stepping into a living masterpiece —
-                        where nature paints the sky and wildlife tells the story.”
+                        “This list is a perfect starting point for an unforgettable Zanzibar itinerary.
+                        Thank you for compiling such a detailed and inspiring guide.”
                     </blockquote>
 
-                    <h3 class="mt-4">Best Time to Visit Tanzania</h3>
+                    <h3 class="mt-4">Best Time to Visit Zanzibar</h3>
                     <ul class="modern-list mt-3">
-                        <li><strong>June – October:</strong> Peak wildlife viewing season</li>
-                        <li><strong> – February:</strong> Calving season for wildebeests</li>
-                        <li><strong>January – March:</strong> Best for photography & big cats</li>
+                        <li><strong>June – October(Cool, Dry Season):</strong> <br>Best for: Beach holidays,
+                             snorkeling, diving, Stone Town tours, spice farms.</li><br>
+                        <li><strong>December to February (Hot, Dry Season):</strong><br> Best for: Festivals 
+                            (e.g., Sauti za Busara in Feb), island hopping, nightlife.</li><br>
+                        <li><strong>March & November:</strong><br>Warm and short rains, but showers are brief and prices are better.</li>
                     </ul>
 
                     <!-- CTA BOX -->
