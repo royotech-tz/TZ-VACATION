@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
+    https_response_code(405);
     echo json_encode(['ok' => false, 'msg' => 'Invalid request method.']);
     exit;
 }
@@ -28,7 +28,7 @@ if (empty($subjectInput)) $errors[] = 'Subject is required.';
 if (empty($msg)) $errors[] = 'Message is required.';
 
 if (!empty($errors)) {
-    http_response_code(400);
+    https_response_code(400);
     echo json_encode(['ok' => false, 'msg' => 'Fix the errors:', 'errors' => $errors]);
     exit;
 }
