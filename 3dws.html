@@ -169,8 +169,11 @@
 <i class="fl flaticon-plus">+</i>
 <ul class="sub-menu">
 
-    <li class="has-sub-menu has-tidy"><a class="sub-item">Wildlife Safaris</a>
-            <ul class="tidy-dropdown">
+    <li class="has-sub-menu has-tidy">
+  <a class="sub-item" href="javascript:void(0)">Wildlife Safaris</a>
+  <i class="fl flaticon-plus">+</i>
+  <ul class="tidy-dropdown">
+
                 <li class="has-sub-menu has-tidy"><a class="sub-item">Regular Safaris</a>
                     <ul class="tidy-dropdown">
                         <li><a href="3dws.html">3 Days Wildlife Safaris</a></li>
@@ -325,6 +328,37 @@
 .has-tidy:hover > .tidy-dropdown {
     display: block;
 }
+
+/* ===== MOBILE MENU FIX ===== */
+@media (max-width: 991px) {
+
+  .has-child-menu > .sub-menu,
+  .has-sub-menu > .tidy-dropdown {
+    display: none;
+    padding-left: 15px;
+  }
+
+  .has-child-menu.active > .sub-menu,
+  .has-sub-menu.active > .tidy-dropdown {
+    display: block;
+  }
+
+  .has-child-menu > a,
+  .has-sub-menu > a {
+    display: inline-block;
+    width: calc(100% - 30px);
+  }
+
+  .has-child-menu > i,
+  .has-sub-menu > i {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+}
+
 
 </style>
 
@@ -1962,5 +1996,32 @@ For Latest Update</h2>
             }
         });
     </script>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Toggle first-level dropdowns
+  document.querySelectorAll('.has-child-menu > i').forEach(function (icon) {
+    icon.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      this.parentElement.classList.toggle('active');
+    });
+  });
+
+  // Toggle nested dropdowns
+  document.querySelectorAll('.has-sub-menu > a').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      this.parentElement.classList.toggle('active');
+    });
+  });
+
+});
+</script>
+
+
+
 </body>
 </html>
