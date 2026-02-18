@@ -1,4 +1,9 @@
 @charset "UTF-8";@import "httpss://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";*{-webkit-box-sizing:border-box;box-sizing:border-box;outline:none;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}body{padding:0;margin:0;font-size:16px;font-family:quicksand,sans-serif}.mt-120{margin-top:120px}.mt-100{margin-top:100px}.mt-105{margin-top:105px}.mt-90{margin-top:90px}.mt-30{margin-top:30px}.mt-24{margin-top:24px}.mt-20{margin-top:20px}.mt-50{margin-top:50px}.mt-40{margin-top:40px}.mb-40{margin-bottom:40px}.mb-30{margin-bottom:30px}.mb-20{margin-bottom:20px}.p-60{padding:60px 0}.p-70{padding:70px 0}.p-80{padding:80px 0}.pt-120{padding-top:120px}.pt-105{padding-top:105px}.pt-100{padding-top:100px}.pt-40{padding-top:40px}.pt-90{padding-top:90px}.pt-80{padding-top:80px}.pb-60{padding-bottom:60px}.pb-30{padding-bottom:30px}.pb-50{padding-bottom:50px}.pb-45{padding-bottom:45px}.pb-40{padding-bottom:40px}.pb-100{padding-bottom:100px}p{font-size:16px;line-height:27px;color:#737679;font-family:work sans,sans-serif;margin-bottom:0}h2{font-family:quicksand,sans-serif;font-style:normal;font-weight:700;font-size:40px;line-height:46px;text-transform:capitalize;color:#262339}h1,h2,h3,h4,h5,h6{margin:0;padding:0}input[type=text],input[type=email],input[type=date],input[type=number],input[type=tel]{padding:8px 15px;display:block;width:100%;background:#fff;border:1px solid #eee;border-radius:5px;height:50px}input:focus{outline:none!important;-webkit-box-shadow:none;box-shadow:none}[type=radio]:checked,[type=radio]:not(:checked){position:absolute;left:-9999px}[type=radio]:checked+label,[type=radio]:not(:checked)+label{position:relative;padding-left:28px;cursor:pointer;line-height:20px;display:inline-block;color:#304f47}[type=radio]:checked+label:before,[type=radio]:not(:checked)+label:before{content:'';position:absolute;left:0;top:2px;width:16px;height:16px;border:1px solid #304f47;border-radius:5px;background:#fff}[type=radio]:checked+label:after,[type=radio]:not(:checked)+label:after{content:'';width:10px;height:10px;background:#304f47;position:absolute;top:5px;left:3px;border-radius:5px;-webkit-transition:all .2s ease;transition:all .2s ease}[type=radio]:not(:checked)+label:after{opacity:0;-webkit-transform:scale(0);transform:scale(0)}[type=radio]:checked+label:after{opacity:1;-webkit-transform:scale(1);transform:scale(1)}input[type=submit]{font-weight:600;font-size:16px;line-height:28px;letter-spacing:.75px;color:#fff;background:#ff7f47;padding:14px 22px;text-transform:capitalize;-webkit-transition:all .3s;transition:all .3s;margin-bottom:0}input[type=submit]:hover{background:#304f47}input[type=submit]:focus{outline:none}textarea{padding:8px 10px;background:#fff;border-radius:5px;display:block;width:100%;border:1px solid #eee;-webkit-transition:all .4s ease;transition:all .4s ease}select{padding:8px 10px;background:#fff;border:1px solid #fff;border-radius:5px;display:block;width:100%;-webkit-transition:all .4s ease;transition:all .4s ease;margin-bottom:10px;height:50px}select:focus{outline:none;border:none;-webkit-box-shadow:none;box-shadow:none}.form-select.package-options{border:2px solid #304f47;border-radius:5px;width:222px;height:40px;font-weight:700;font-size:15px;line-height:19px;color:#262339;float:right}.form-select.package-options option{font-weight:700;font-size:15px;line-height:19px;color:#262339;text-transform:capitalize}.form-select.package-options:focus{-webkit-box-shadow:none;box-shadow:none;border:2px solid #304f47}.input-group.search-box input{height:47px;border:none;background:#f5f5f5;border-radius:10px 0 0 10px}.input-group.search-box input:focus{-webkit-box-shadow:none;box-shadow:none}.input-group.search-box button{height:47px;border:none;background:#304f47;width:55px;border-radius:0 10px 10px 0}.input-group.search-box button i{color:#fff;font-size:25px}.input-group.search-box button:focus{-webkit-box-shadow:none;box-shadow:none}ol,ul{padding:0;margin:0;list-style:none}table tbody tr td,table tbody tr th,table thead tr td,table thead tr th,table tfoot tr td,table tfoot tr th{border:1px solid #eee;padding:10px}a.btn-common-sm{display:inline-block;padding:11px 20px 11px 30px;background:#304f47;border-radius:5px;font-weight:600;font-size:14px;color:#fff;position:relative;z-index:9}a.btn-common-sm:hover::before{-webkit-clip-path:circle(150% at 0% 0%);clip-path:circle(150% at 0% 0%)}a.btn-common-sm::before{height:100%;width:100%;position:absolute;content:"";background:#ff7f47;top:0;left:0;border-radius:5px;-webkit-clip-path:circle(27% at -3% 50%);clip-path:circle(27% at -3% 50%);-webkit-transition:all .4s;transition:all .4s;z-index:-1}a.btn-common{display:inline-block;padding:16.5px 32.5px;background:#304f47;border-radius:5px;font-weight:600;font-size:16px;color:#fff;position:relative;z-index:9}a.btn-common:hover::before{-webkit-clip-path:circle(150% at 0% 0%);clip-path:circle(150% at 0% 0%)}a.btn-common::before{height:100%;width:100%;position:absolute;content:"";background:#ff7f47;top:0;left:0;border-radius:5px;-webkit-clip-path:circle(27% at -3% 50%);clip-path:circle(27% at -3% 50%);-webkit-transition:all .4s;transition:all .4s;z-index:-1}a.btn-second{display:inline-block;padding:16.5px 32.5px;background:#ff7f47;border-radius:5px;font-weight:600;font-size:16px;color:#fff;position:relative;z-index:20}a.btn-second:focus{-webkit-box-shadow:none;box-shadow:none}.sticky{position:fixed;top:0;left:0;background:#fff;z-index:9;-webkit-animation:500ms ease-in-out 0s 1 running;animation:500ms ease-in-out 0s 1 running;-webkit-animation:500ms ease-in-out;animation:500ms ease-in-out;width:100%;-webkit-box-shadow:rgba(0,0,0,.1) 0 10px 15px -3px,rgba(0,0,0,.05) 0 4px 6px -2px;box-shadow:rgba(0,0,0,.1) 0 10px 15px -3px,rgba(0,0,0,.05) 0 4px 6px -2px}a{text-decoration:none!important}.section-head.head-left{text-align:left;margin:0}.section-head{text-align:center;max-width:516px;margin:0 auto}.section-head h5{margin-bottom:15px;font-family:quicksand,sans-serif;font-style:normal;font-weight:700;font-size:20px;color:#ff7f47}.section-head h2{font-family:quicksand,sans-serif;font-style:normal;font-weight:700;font-size:40px;line-height:46px;text-transform:capitalize}.owl-carousel .owl-nav{text-align:center}.owl-carousel .owl-nav button i{height:30px;width:30px;color:#fff;border:2px solid #fff;border-radius:50%;text-align:center;line-height:28px;font-size:25px;margin:0 12.5px;margin-top:30px}.owl-carousel.dark-nav .owl-nav{text-align:center}.owl-carousel.dark-nav .owl-nav button i{height:30px;width:30px;color:#304f47;border:2px solid #304f47;border-radius:50%;text-align:center;line-height:28px;font-size:25px;margin:0 12.5px;margin-top:30px}.owl-dots{text-align:center}.owl-dots button.owl-dot{height:10px;width:25px;background:#304f47;-webkit-transition:all .3s;transition:all .3s;margin:0 12.5px;border-radius:5px}.owl-dots button.active.owl-dot{height:15px;background:#ff7f47}.owl-carousel.owl-loaded.owl-drag.destinations-1,.owl-carousel.owl-loaded.owl-drag.destinations-2{margin-left:0}.owl-carousel.owl-loaded.owl-drag.destinations-1 .owl-stage-outer,.owl-carousel.owl-loaded.owl-drag.destinations-2 .owl-stage-outer{padding:0}.owl-carousel.owl-loaded.owl-drag.destinations-1 .package-card,.owl-carousel.owl-loaded.owl-drag.destinations-2 .package-card{margin:20px 0 0;-webkit-box-shadow:none;box-shadow:none;border:1px solid #eee}.form-select.languge-selector{padding:0;border:none;margin:0;height:100%;background:0 0;font-family:work sans,sans-serif;font-style:normal;font-weight:600;font-size:12px;line-height:8px;color:#fff;float:right;width:auto}.form-select.languge-selector option{color:#262339;font-family:work sans,sans-serif;font-style:normal;font-weight:600;font-size:12px;width:20px;display:block;padding:10px 20px}.form-select.languge-selector:focus{-webkit-box-shadow:none;box-shadow:none}
+
+html {
+  font-family: quicksand, sans-serif;
+}
+
 .breadcrumb-area{background:-webkit-gradient(linear,left top,left bottom,color-stop(100%,rgba(0,0,0,0.65)),to(rgba(0,0,0,0.65))),url(../images/breadcrumb-bg.png);background:linear-gradient(rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 100%),url(../images/breadcrumb-bg.png);background-size:cover;min-height:320px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .breadcrumb-area .breadcrumb-wrap
 {text-align:center}
@@ -87,6 +92,1234 @@
         @keyframes rotating
         {0%{-webkit-transform:rotate(10deg);transform:rotate(10deg)}100%{-webkit-transform:rotate(370deg);transform:rotate(370deg)}}
        
+.ti-section {
+  padding: 30px 20px 80px;
+  background-color: #ffffff;
+  font-family: quicksand, sans-serif;
+}
+
+.ti-itenary-section {
+      margin: 0;
+      padding: 10px 20px 40px;
+      background-color: #ffffff;
+      font-family: quicksand, sans-serif;
+}
+
+.ti-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ti-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.ti-header h2 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+.ti-header p {
+  margin: 0;
+  color: #666;
+}
+
+.ti-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+}
+
+.ti-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.ti-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.ti-itin-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.ti-itin-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.ti-price {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #c59d5f;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.ti-content {
+  padding: 25px;
+}
+
+.ti-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.ti-btn-primary {
+  background: #c59d5f;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.ti-btn-outline {
+  border: 2px solid #c59d5f;
+  color: #c59d5f;
+  padding: 8px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.ti-animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.ti-animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ti-btn-primary {
+  background: #c59d5f;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 100;
+  transition: 
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.ti-btn-primary:hover {
+  background: #a8844d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ti-btn-outline {
+  border: 2px solid #c59d5f;
+  color: #c59d5f;
+  padding: 8px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 200;
+  transition: 
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.ti-btn-outline:hover {
+  background-color: #c59d5f;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ti-btn-primary:active,
+.ti-btn-outline:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+ /* Tooltip */
+.whatsapp-tooltip {
+  position: absolute;
+  right: 65px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Show tooltip on hover and tap */
+.whatsapp-float:hover .whatsapp-tooltip,
+.whatsapp-float:focus .whatsapp-tooltip {
+  opacity: 1;
+}       
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.whatsapp-float i {
+  line-height: 55px;
+}
+
+.tour-experience {
+  background-color: #f4f1ec;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.experience-content h2 {
+  font-family: quicksand, sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.experience-content p {
+  font-family: quicksand, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #c59d5f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a8844d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-grid img {
+    height: 150px;
+  }
+}
+
+
+
+
+/* Parallax Section Fix */
+.parallax-section {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url('assets/images/222782-Zanzibar.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Desktop parallax */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Mobile Fix: simulate parallax using animation */
+@media (max-width: 768px) {
+  .parallax-section {
+    background-attachment: scroll;
+    animation: mobileParallax 15s linear infinite alternate;
+  }
+
+  @keyframes mobileParallax {
+    from { background-position: center top; }
+    to { background-position: center bottom; }
+  }
+}
+
+.parallax-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.parallax-overlay h2 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  max-width: 700px;
+  margin: auto;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- OWL CONTAINER FIXES --- */
+.banner-slider .owl-stage-outer {
+  position: relative;
+  overflow: hidden; /* ensures zoom doesn’t overflow carousel */
+  width: 100%;
+}
+
+.banner-slider .owl-stage {
+  display: flex;
+}
+
+/* --- EACH SLIDE --- */
+.banner-slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden; /* ensures zoom stays within slide */
+}
+
+/* --- BACKGROUND IMAGE WRAPPER --- */
+.banner-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transform: scale(1);
+  transition: transform 7s ease-in-out;
+  animation: none; /* default no animation */
+}
+
+/* Overlay for better text visibility */
+.banner-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.main-banner,
+.banner-slide {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+
+/* --- TEXT CONTAINER --- */
+.slider-content {
+  position: relative;
+  z-index: 2; /* keep above background and overlay */
+  max-width: 650px;
+  text-align: left;
+}
+
+/* --- INDIVIDUAL SLIDES --- */
+.serengeti-slide::before {
+  background-image: url("assets/images/Untitled design (1).png");
+}
+.ngorongoro-slide::before {
+  background-image: url("assets/images/shutterstock_212603380-1280x640-1.jpg");
+}
+.zanzibar-slide::before {
+  background-image: url("assets/images/Aerial-wide-shot-of-Zanzibar-Island-Tanzania-1.jpg");
+}
+
+/* --- ZOOM EFFECT ONLY ON ACTIVE SLIDE --- */
+.owl-item.active .serengeti-slide::before {
+  animation: zoomInSlow 15s ease-in-out infinite alternate;
+}
+.owl-item.active .ngorongoro-slide::before {
+  animation: zoomOutFast 12s ease-in-out infinite alternate;
+}
+.owl-item.active .zanzibar-slide::before {
+  animation: zoomInFast 10s ease-in-out infinite alternate;
+}
+
+@media (max-width: 768px) {
+
+  .banner-slide {
+    min-height: auto;
+    padding: 100px 0 80px 0; /* gives breathing room */
+  }
+
+  .slider-content {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .slider-content h7 {
+    font-size: 26px;
+    line-height: 1.3;
+    display: block;
+  }
+
+  .slider-content h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .banner-btn {
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .wow {
+    animation: none !important;
+    visibility: visible !important;
+  }
+}
+
+
+/* --- KEYFRAMES --- */
+@keyframes zoomInSlow {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+
+@keyframes zoomOutFast {
+  0% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@keyframes zoomInFast {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.2); }
+}
+
+
+/* Typewriter animation for h2 */
+.typewriter {
+  display: inline-block;
+  font-size: 72px;           /* large and bold */
+  font-weight: 800;
+  color: #eac79f;            /* golden highlight */
+  font-family: 'quicksand', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  opacity: 0;                /* start invisible */
+  animation: typingLoop 6s steps(30, end) infinite;
+}
+
+/* Combined looping animation */
+@keyframes typingLoop {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  60% {
+    width: 100%;
+    opacity: 1;
+  }
+  80% {
+    width: 100%;
+    opacity: 0.9;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+
+h5 {
+  margin-top: 40px;
+  font-size: 3rem;
+  color: hsl(43, 100%, 53%);
+}
+
+/* --- TEXT & BUTTON STYLING --- */
+.slider-content h2 {
+  font-size: 3rem;
+  margin-bottom: 0.4em;
+}
+
+.slider-content h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5em;
+}
+
+.banner-btn .btn-common {
+  background: #ffb100;
+  color: #000;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.banner-btn .btn-common:hover {
+  background: #fff;
+}
+
+
+
+    /* ====== TOUR ITINERARY STYLES (SCOPED) ====== */
+
+    .ti-section {
+      padding: 40px 20px 90px;
+      background-color: #ffffff;
+      font-family: quicksand, sans-serif;
+    }
+
+    .ti-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .ti-header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .ti-header h2 {
+      margin: 0 0 10px;
+      font-size: 36px;
+      color: #1f2a2e;
+    }
+
+    .ti-header h3 {
+      text-align: left;
+      margin: 0 0 10px;
+      font-size: 36px;
+      color: #1f2a2e;
+    }
+
+    .ti-header p {
+      font-family: quicksand, sans-serif;
+      margin: 0;
+      font-size: 17px;
+      color: #666;
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ti-header .ti-subtitle {
+      text-align: left;
+      font-family: quicksand, sans-serif;
+      margin: 0;
+      font-size: 17px;
+      color: #666;
+      }
+
+    .ti-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 35px;
+    }
+
+    .ti-card {
+      position: relative;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .ti-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+    }
+
+    .ti-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .ti-price {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #c59d5f;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .ti-content {
+      font-family: quicksand, sans-serif;
+      padding: 25px;
+    }
+
+    .ti-duration {
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #c59d5f;
+      margin-bottom: 10px;
+    }
+
+    .ti-content h3 {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #1f2a2e;
+    }
+
+    .ti-content h4 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #1f2a2e;
+    }
+
+    .ti-content p {
+      font-family: quicksand, sans-serif;
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 22px;
+    }
+
+    .ti-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .ti-btn-primary {
+      background: #c59d5f;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 400;
+      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .ti-btn-primary:hover {
+      color: #000;
+      background: #a8844d;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.231);
+    }
+
+    .ti-btn-outline {
+      border: 2px solid #c59d5f;
+      color: #c59d5f;
+      padding: 8px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 400;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .ti-btn-outline:hover {
+      background-color: #c59d5f;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    /* Scroll Animation */
+    .ti-animate {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .ti-animate.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .ti-filters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.ti-filter-btn {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 2px solid #c59d5f;
+  background: transparent;
+  color: #c59d5f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ti-filter-btn:hover {
+  background: #c59d5f;
+  color: #ffffff;
+}
+
+.ti-filter-btn.active {
+  background: #c59d5f;
+  color: #ffffff;
+}
+
+.ti-hidden {
+  display: none !important;
+}
+
+    @media (max-width: 600px) {
+      .ti-header h2 {
+        font-size: 30px;
+      }
+      .ti-actions {
+        flex-direction: column;
+      }
+    }
+
+/* Independent dropdown menu – no inheritance */
+.tidy-dropdown, 
+.tidy-dropdown * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    line-height: 1.2 !important;
+}
+
+.tidy-dropdown {
+    list-style: none;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+/* Ensure LI stretches full width */
+.tidy-dropdown li {
+    font-size: 6px;
+    width: 100%;                            /* forces full width */
+    display: block;                         /* prevents collapse */
+    border-bottom: 1px solid #e0e0e0;       /* full-width line */
+}
+
+/* Remove last border */
+.tidy-dropdown li:last-child {
+    border-bottom: none;
+}
+
+/* Links fill entire LI width */
+.tidy-dropdown li a {
+    font-size: 6px;
+    display: block;                         /* takes full width */
+    width: 100%;                            /* enforces 100% width */
+    padding: 8px 12px !important;           /* spacing */
+    text-decoration: none;
+    color: #200404;
+}
+
+/* Hover */
+.tidy-dropdown li a:hover {
+    background: #f5f5f5;
+}
+
+/* Show on hover */
+.has-tidy:hover > .tidy-dropdown {
+    display: block;
+}
+
+
+
+ /* General section setup */
+    .cs_page_heading {
+  position: relative;
+  width: 100%;
+  min-height: 700px; /* Increased from 300px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+  color: #fff;
+  overflow: hidden;
+}
+
+    /* Background overlay */
+    .cs_heading_bg::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.45);
+      z-index: 0;
+    }
+
+    /* Background image fill */
+    .cs_bg_filed {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* Center alignment */
+    .cs_center {
+      text-align: center;
+    }
+
+    /* Bootstrap-style text center (fallback) */
+    .text-center {
+      text-align: center;
+    }
+
+    /* Heading text styling */
+    .cs_black_color {
+      color: #ebc596;
+      font-family: 'quicksand',sans-serif;
+      font-weight: 700;
+      font-size: 5rem;
+      letter-spacing: 2px;
+      z-index: 1;
+      position: relative;
+    }
+
+    /* Zooming animated background */
+    .cs_page_heading.cs_zoom_bg {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cs_page_heading.cs_zoom_bg::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('assets/images/7-days-Tanzania-Honeymoon-Safari-750x450.jpg');
+      background-size: cover;    
+      background-position: center;
+      animation: zoomBackground 20s ease-in-out infinite;
+      z-index: 0;
+      transform-origin: center;
+    }
+
+    .cs_page_heading.cs_zoom_bg > .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes zoomBackground {
+      0%   { transform: scale(1); }
+      50%  { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+
+
+.ti-carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.ti-track {
+  display: flex;
+  transition: transform 0.7s ease;
+}
+
+.ti-card {
+  min-width: 33.3333%;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .ti-card {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ti-card {
+    min-width: 100%;
+  }
+}
+
+.ti-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.ti-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.ti-dot.active {
+  background: #c59d5f;
+  transform: scale(1.2);
+}
+
+
+/* ===== TOUR LAYOUT ===== */
+.ti-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 40px;
+  align-items: start;
+}
+
+/* ===== SIDEBAR ===== */
+.ti-sidebar {
+  background: #f8f9f7;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 100px;
+}
+
+.ti-sidebar h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #1e3d34;
+}
+
+/* ===== CHECKBOX STYLE ===== */
+.ti-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.ti-check input {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #c59d5f;
+  border-radius: 4px;
+  position: relative;
+}
+
+.ti-check input:checked {
+  background: #c59d5f;
+}
+
+.ti-check input:checked::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: #fff;
+}
+
+.ti-check span {
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  .ti-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .ti-sidebar {
+    position: static;
+    margin-top: 40px;
+  }
+}
+
+.ti-tours-section .ti-btn-primary {
+      background: #c59d5f;
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 14px;
+      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+.ti-tours-section .ti-btn-outline {
+      border: 2px solid #c59d5f;
+      color: #c59d5f;
+      padding: 8px 20px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+/* ONLY this tour section */
+/* WIDER container ONLY for tours section */
+.ti-tours-section .ti-container {
+  max-width: 1400px;   /* increase overall width */
+  padding-left: 40px;  /* more breathing room */
+  padding-right: 40px;
+}
+
+
+.ti-tours-section .ti-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Ensure cards fill grid */
+.ti-tours-section .ti-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.ti-tours-section .ti-content {
+  padding: 22px;
+}
+
+/* Buttons aligned in one row */
+.ti-tours-section .ti-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.ti-tours-section .ti-actions a {
+  flex: 1;                 /* equal width buttons */
+  text-align: center;
+  padding: 12px 0;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 1200px) {
+  .ti-tours-section .ti-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ti-tours-section .ti-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .ti-tours-section .ti-actions {
+    flex-direction: column;
+  }
+}
+
+
+.ti-filter-group {
+  margin-top: 30px;
+}
+
+.ti-filter-group h6 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #ee9b3c;
+}
+
+/* Scoped footer container */
+.ti-section__footer {
+  display: flex;
+  justify-content: flex-end; /* aligns button to the right */
+  margin-top: 40px;
+}
+
+/* Stylish button */
+.ti-btn-view-more {
+  background: linear-gradient(135deg, #c59d5f, #f4d18a);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+.ti-btn-view-more:hover {
+  background: linear-gradient(135deg, #f4d18a, #c59d5f);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .ti-section__footer {
+    justify-content: center; /* center button on mobile */
+  }
+}
+
+/* FULL WIDTH SECTION */
+.fw-image-strip {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 60px 40px;
+}
+
+/* GRID */
+.fw-image-strip__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+/* ITEMS */
+.fw-image-strip__item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* ANIMATIONS */
+.zoom img { animation: zoomIn 12s ease-in-out infinite alternate; }
+.slide img { animation: slideIn 14s ease-in-out infinite alternate; }
+.float img { animation: floating 6s ease-in-out infinite alternate; }
+
+@keyframes zoomIn {
+  from { transform: scale(1); }
+  to   { transform: scale(1.15); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-20px); }
+  to   { transform: translateX(20px); }
+}
+
+@keyframes floating {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-15px); }
+}
+
+@media (max-width: 900px) {
+  .fw-image-strip__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .fw-image-strip__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+   /* ITENARY PAGE STLYE */
+.ti-itin-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.ti-itin-page {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.ti-itin-page:hover,
+.ti-itin-page.active {
+  background: #ee9b3c;
+  color: #fff;
+  border-color: #ee9b3c;
+}
+
+
+
         .topbar-area
         {padding:8px 0;background:#304f47}
         .topbar-area .topbar-contact
